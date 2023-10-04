@@ -1,0 +1,36 @@
+{
+  "name": "@koishijs/canvas",
+  "description": "Canvas service for Koishi",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/canvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/canvas/issues"
+  },
+  "homepage": "https://canvas.koishi.chat",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "service",
+    "canvas",
+    "render",
+    "image",
+    "draw"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.15.0"
+  },
+  "devDependencies": {
+    "koishi": "^4.15.0"
+  }
+}
