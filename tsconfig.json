@@ -2,16 +2,18 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
-    "target": "es2019",
-    "module": "commonjs",
-    "emitDeclarationOnly": true,
+    "target": "es2022",
+    "module": "esnext",
+    "sourceMap": true,
+    "declaration": true,
     "composite": true,
     "incremental": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
+    "emitDeclarationOnly": true,
+    "moduleResolution": "bundler",
+    "strictBindCallApply": true,
+    "types": ["node", "yml-register/types"]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
