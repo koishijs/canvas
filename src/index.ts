@@ -45,6 +45,7 @@ abstract class CanvasService extends Service {
 
   abstract createCanvas(width: number, height: number): Promise<Canvas>
   abstract loadImage(source: string | URL | Buffer | ArrayBufferLike): Promise<Image>
+  abstract loadFont(source: string | URL | Buffer | ArrayBufferLike): Promise<string>
 
   async render(width: number, height: number, callback: (ctx: CanvasRenderingContext2D) => Awaitable<void>) {
     const canvas = await this.createCanvas(width, height)
